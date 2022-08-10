@@ -1,0 +1,11 @@
+.map-wrapper {
+  height: 100%;
+  background-color: #fff;
+  width: 50%;
+}
+
+@media screen and (max-width: 660px) {
+  .map-wrapper {
+    width: 100%;
+  }
+}

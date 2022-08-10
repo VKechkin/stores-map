@@ -1,0 +1,19 @@
+.btn {
+  border: none;
+  outline: none;
+  width: 83px;
+  height: 23px;
+  background-color: #282c2d;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #969c9f;
+}
+
+@media screen and (max-width: 660px) {
+  .btn {
+    width: auto;
+    padding: 0 5px;
+  }
+}

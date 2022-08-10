@@ -1,0 +1,14 @@
+.shops-wrapper {
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  color: #969c9f;
+  font-family: Arial;
+  width: 50%;
+}
+
+@media screen and (max-width: 660px) {
+  .shops-wrapper {
+    width: 100%;
+  }
+}
